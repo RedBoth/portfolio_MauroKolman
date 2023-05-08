@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+#logo-ap {
+    width: 150px;
+}
+.redes img {
+    width: 45px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.redes {
+    margin-right: 0.5em;
+}
+.redes a {
+    margin-right: 6px;
+}
+.btn {
+    border-width: medium;
+}
+/* Vista Mobile */
+@media (max-width: 575px) {
+    .container {
+        flex-direction: column;
+    }
+    .redes {
+        padding-bottom: 8px;
+    }
+    .redes a{
+        margin-right: 4px;
+    }
+}

@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+}
+div {
+    background-color: #212429;
+}
+app-social {
+    float: right;
+    margin-top: 25px;
+}
